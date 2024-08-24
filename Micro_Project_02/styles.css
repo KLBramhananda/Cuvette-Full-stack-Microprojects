@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background:linear-gradient(to top,red,yellow);
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height:100vh;
+}
+
+.navbar{
+  width:100%;
+  background: #6F6AF7;
+  height: 140px;
+  position: fixed;
+}
+.icon{
+  float: left;
+  margin:Auto;
+}
+.logo{
+  margin-top: 35px;;
+  margin-left: 115px;
+  
+}
+.logo img{
+  width: 125%;
+  height: auto;
+}
+
+.menu{
+  width:700px;
+  float: left;
+  height: 70px;
+  margin-left: 230px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 700px;
+}
+ul li{
+  list-style: none;
+  margin-left: 60px;
+  margin-top:40px;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 50px;
+  font-style: Arial;
+  color:#ffff;
+  
+}
+
+ul #vec1{
+  margin-top:42px;
+  padding-left: 7px;
+  width: 20px;
+}
+.srh{
+  float: left;
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  border: 2px solid #ffff;
+  border-radius: 45px;
+  padding: 15px 35px;
+  margin-top: 25px;
+  margin-left:1000px;
+
+}
+.srh #text1{
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 5px;
+  font-size: 30px;
+}
+.srh img{
+  width: 30px;
+  height: 30px;
+  background-color: #ffff;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 60px;
+}
+
+.contain{
+  margin-top: 40px;
+  width: auto;
+  height: 80px;
+}
+
+.contain #vec2{
+  padding-left: 70px;
+}
